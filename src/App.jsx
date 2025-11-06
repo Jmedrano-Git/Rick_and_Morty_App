@@ -9,7 +9,6 @@ function App() {
     <BrowserRouter>
       <Navbar />
 
-
       <div className="container py-4">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,6 +18,5 @@ function App() {
     </BrowserRouter>
   )
 }
-
 
 export default App
