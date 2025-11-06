@@ -83,4 +83,10 @@ src/
 ├─ App.jsx
 └─ main.jsx
 
+```
 ---
+## 🤖 App 
+
+# Desplegada y con su video testing
+Youtube: https://youtu.be/yPVsd2VBuas
+Netifly: https://harmonious-frangollo-2db4f7.netlify.app/
