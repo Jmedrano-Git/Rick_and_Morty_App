@@ -1,18 +1,90 @@
-# React + Vite
+# Rick & Morty Universe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con React y Vite que consume la API pública de Rick and Morty.  
+La aplicación permite visualizar personajes, ubicaciones y episodios mediante una interfaz sencilla construida con Bootstrap 5.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Descripción breve del proyecto
 
-## React Compiler
+Este proyecto consume datos desde la API oficial de Rick & Morty:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+https://rickandmortyapi.com/api
 
-Note: This will impact Vite dev & build performances.
+Incluye dos vistas principales:
 
-## Expanding the ESLint configuration
+### ✅ **Home (/)**  
+- Hero con título del proyecto  
+- Breve descripción  
+- Listado simple de personajes destacados  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ **Entities (/entities)**  
+- Selector para elegir entre Characters, Locations y Episodes  
+- Listado dinámico según la categoría seleccionada  
+- Cada entidad muestra **3 propiedades principales**  
+- Consumo de API mediante Axios  
+
+---
+
+## 🛠 Tecnologías usadas
+
+- **Vite** (entorno de desarrollo)
+- **React** (framework principal)
+- **React Router DOM** (navegación)
+- **Axios** (consumo de API)
+- **Bootstrap 5** (estilos y diseño responsive)
+
+Instalación de dependencias principales:
+
+
+---
+
+## 🚀 Pasos para ejecutar el servidor
+
+### 1️⃣ Clonar el repositorio
+
+```
+git clone 
+
+```
+
+### 2️⃣ Ingresar al directorio
+
+```
+cd Rick_and_Morty_App
+
+```
+### 3️⃣ Instalar dependencias
+
+```
+npm install
+
+```
+
+### 4️⃣ Ejecutar el proyecto
+
+```
+npm run dev
+
+```
+
+Link: http://localhost:5173/
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+
+src/
+├─ api/
+│ └─ rickApi.js
+├─ components/
+│ └─ Navbar.jsx
+├─ pages/
+│ ├─ Home.jsx
+│ ├─ Entities.jsx
+├─ App.jsx
+└─ main.jsx
+
+---
