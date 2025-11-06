@@ -44,28 +44,24 @@ Instalación de dependencias principales:
 ### 1️⃣ Clonar el repositorio
 
 ```
-git clone 
-
+git clone https://github.com/Jmedrano-Git/Rick_and_Morty_App.git
 ```
 
 ### 2️⃣ Ingresar al directorio
 
 ```
 cd Rick_and_Morty_App
-
 ```
 ### 3️⃣ Instalar dependencias
 
 ```
 npm install
-
 ```
 
 ### 4️⃣ Ejecutar el proyecto
 
 ```
 npm run dev
-
 ```
 
 Link: http://localhost:5173/
